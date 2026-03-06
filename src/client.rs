@@ -1,7 +1,4 @@
-use std::{
-    sync::Arc,
-    time::{Duration, SystemTime},
-};
+use std::time::{Duration, SystemTime};
 
 use serde::Deserialize;
 use tokio::sync::RwLock;
@@ -10,6 +7,7 @@ use crate::{error::Get401Error, models::PublicKeyData};
 
 const DEFAULT_HOST: &str = "https://app.get401.com";
 
+#[derive(Debug)]
 struct CachedKey {
     data: PublicKeyData,
     /// Wall-clock time at which the cache entry expires.
