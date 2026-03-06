@@ -2,7 +2,7 @@
 
 Core Rust SDK for [get401](https://get401.com) authentication. Verifies EdDSA/Ed25519 JWTs, fetches and caches the public key, and parses token claims.
 
-> **Backend only.** Designed for Rust server applications. Used directly by [`get401-axum`](../get401-axum).
+> **Backend only.** Designed for Rust server applications. Used directly by [`get401/rust-axum`](https://github.com/get401/rust-axum).
 
 ## Installation
 
