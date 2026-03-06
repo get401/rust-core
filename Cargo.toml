@@ -1,6 +1,6 @@
 [package]
 name = "get401"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Core Rust SDK for get401 authentication — EdDSA/Ed25519 JWT verification."
 license = "MIT"
